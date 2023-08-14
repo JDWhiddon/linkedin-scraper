@@ -1,3 +1,7 @@
+# Disclaimer 
+While web scraping is legal, **this tool is not designed to be put into practice and is just an educational resource** on how web scraping
+would be implemented using JavaScript. 
+
 # LinkedIn Job Scraper
 A tool for searching LinkedIn job posts and compiling them into a .CSV file!
 
@@ -12,9 +16,6 @@ A tool for searching LinkedIn job posts and compiling them into a .CSV file!
   and quotation marks to narrow down your search.
   
     The "location" variable is the location where you want to search for listings. You may also change this to "remote".
-
-    The waitDelay variable is used to set a delay between the requests to LinkedIn. Adjust this value to prevent being timed out by LinkedIn.
-   Decreasing the delay may lead to timeouts if the script is run too frequently.
   
     There is an additional if statement on line 65 that you may adjust to make the searches more specific.
 
